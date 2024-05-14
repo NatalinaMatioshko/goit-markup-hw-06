@@ -960,7 +960,7 @@ footer
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   outline: none;
   color: #ffffff;
-  margin-bottom: 16px;
+
   opacity: 0.3;
 }
 .inp-subscribe::placeholder {
@@ -988,6 +988,43 @@ footer
 .icon-subscribe {
   margin-left: 16px;
   fill: #fff;
+}
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .foo-end {
+    min-width: 768px;
+  }
+  .main-text-foo {
+    margin-bottom: 0;
+  }
+  .foo-end-container {
+    display: flex;
+    align-items: baseline;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    padding-left: 108px;
+    text-align: left;
+  }
+
+  .footer-container {
+    width: 264px;
+    margin: 0;
+  }
+
+  .cont-subscribe {
+    width: 453px;
+    margin: 0;
+  }
+
+  .form-subscribe {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+  }
+  .inp-subscribe {
+    width: 264px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
